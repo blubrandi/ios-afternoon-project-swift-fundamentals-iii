@@ -27,12 +27,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var cadButton: UIButton!
     @IBOutlet weak var mxnButton: UIButton!
     
-    var currencyFormatter: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        return formatter
-    }()
-    
     var currency: Currency =  .cad
     
     // MARK: - Actions
